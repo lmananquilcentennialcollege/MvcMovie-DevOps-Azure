@@ -25,6 +25,9 @@ steps:
 - script: dir
   displayName: 'List Files in Directory'
 
+- script: dir MvcMovie
+  displayName: 'List Files in ShowCase Directory'
+
 - task: DotNetCoreCLI@2
   displayName: 'Restore dependencies'
   inputs:
